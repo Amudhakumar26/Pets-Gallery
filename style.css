@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: rgb(247, 100, 81);
+    text-align: center;
+    margin: 5px;
+    color: rgb(5, 5, 5);
+    padding: 2px;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(245, 135, 135);
+    padding: 5px 5px;
+    justify-content: end;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.nav a:hover {
+    background-color: rgb(235, 65, 35);
+    color: white;
+}
+
+.images div {
+    margin: 15px;
+    width: 220px;
+    flex-basis: 15%;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery {
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+    
+}
+.gallery a{
+    text-decoration: none;
+}
+
+.gallery :hover {
+    background-color: rgb(7, 7, 7);
+    color: rgb(243, 240, 240);
+}
+.hero p{
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero {
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer {
+    background-color: rgb(236, 137, 90);
+    padding: 20px;
+    margin: 4px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+    background-color: rgb(245, 196, 176);
+}
+
+@media screen and (min-width:600px) {
+    body {
+        background-color: rgb(248, 204, 187);
+    }
+}
+
+@media screen and (max-width:601px) {
+    body {
+        background-color: rgb(226, 164, 164)
+    }
+}
+
+.head {
+    background-color: rgb(247, 100, 81);
+}
+
+@media screen and (min-width:600px) {
+    .head {
+        background-color: rgb(247, 100, 81);
+    }
+}
+
+@media screen and (max-width:601px) {
+    .head {
+        background-color: rgb(221, 120, 107);
+    }
+
+}
+
+@media screen and (min-width:600px) {
+    .nav {
+        background-color: rgb(245, 135, 135);
+    }
+}
+
+@media screen and (max-width:601px) {
+    .nav {
+        background-color: rgb(248, 150, 135);
+    }
+
+}
+@media screen and (max-width:601px){
+    .footer{
+        background-color: rgb(221, 120, 107);
+    }
+}
+
+@media screen and (min-width:600px){
+    .footer{
+        background-color: rgb(241, 133, 100);
+    }
+}
